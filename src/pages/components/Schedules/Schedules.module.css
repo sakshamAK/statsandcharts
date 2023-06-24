@@ -1,0 +1,56 @@
+.schedules {
+    border-radius: 20px;
+    padding: 3rem; 
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+
+}
+
+.schedules * {
+    margin: 0;
+}
+
+.scheduleTitle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.scheduleHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.scheduleDesc {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.singleSchedule {
+    border-left: 5px solid #9BDD7C;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.singleSchedule:nth-of-type(2n) {
+    border-left-color: #6972C3;
+}
+
+.singleSchedule p {
+    color: var(--secondary);
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1250px) {
+    .schedules {
+        width: 100%;
+    }
+}

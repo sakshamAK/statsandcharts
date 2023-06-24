@@ -10,8 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-oauth/google": "^0.11.0",
+    "axios": "^1.4.0",
+    "chart.js": "^4.3.0",
+    "gapi": "^0.0.3",
+    "miragejs": "^0.1.47",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.13.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

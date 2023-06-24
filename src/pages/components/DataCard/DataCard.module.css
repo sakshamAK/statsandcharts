@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.datacard {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 20px;
+    flex-grow: 1;
+    min-width: 200px;
+}
+
+.datacard-icon {
+    align-self: flex-end;
+}
+
+.datacard p {
+    font-family: 'Lato', sans-serif;    
+    margin-bottom: 5px;
+}
+
+.datacard * {
+    margin: 0;
+}

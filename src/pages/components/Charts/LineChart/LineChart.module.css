@@ -1,0 +1,56 @@
+.lineChart {
+    height: 359px;
+    width: 100%;
+}
+
+.chartDetails {
+    border-radius: 20px;
+    padding: 3rem; 
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.chartDetails * {
+    margin: 0;
+}
+
+.chartTitle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.chartHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chartLabels {
+    margin-right: 5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.chartLabelContainer {
+    display: flex;
+}
+
+.chartLabels::before {
+    content: '';
+    position: absolute;
+    transform: translateX(-100%);
+    left: -0.5rem;
+    border-radius: 999px;
+    height: 10px;
+    width: 10px;
+    background-color: #E9A0A0;
+}
+
+.chartLabels:nth-of-type(2)::before {
+    background-color: #9BDD7C;
+    
+}

@@ -1,0 +1,124 @@
+.dashboard {
+    padding: 2rem;
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    display: flex;
+    gap: 2rem;
+    position: relative;
+}
+
+.side-menu {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 3rem 1rem;
+    border-radius: 30px;
+    height: 90vh;
+    box-sizing: border-box;
+    position: sticky;
+    top: 2rem;
+}
+
+.menu-options, .menu-footer {
+    display: flex;
+    flex-direction: column;
+    padding-block: 2rem;
+    margin-right: 2rem;
+    gap: 2.5rem;
+}
+
+.active {
+    font-weight: bolder;
+}
+.regular, .active {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.menu-footer {
+    margin-top: auto;
+    gap: 1rem;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem 0 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    gap: 3rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.searchbar {
+    padding: 0.5rem 0.8rem;
+    border-radius: 10px;
+    border: none;
+    color: var(--light-gray);
+}
+
+.profile-settings {
+    margin-left: auto;
+    display: flex;
+    gap: 2rem;
+}
+
+.search-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.search-container img {
+    position: absolute;
+    right: 1rem;
+}
+
+.profile-picture {
+    height: 2rem;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.piestats {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1250px) {
+    .piestats {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .side-menu {
+        position: absolute;
+        left: -20rem;
+        transition: all 1s linear;
+    }
+}

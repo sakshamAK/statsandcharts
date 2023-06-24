@@ -1,0 +1,14 @@
+.gAuth {
+    background-color: white;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    color: var(--secondary);
+}
+
+.gAuth {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
